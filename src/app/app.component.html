@@ -1,5 +1,16 @@
+<header class="header" >
+    <h1>Animations</h1>
+    <div class="spacer"></div>
+    <button>menù</button>
+</header>
+
+
+
 <button (click)="showHide()" >hide/show</button>
 
 <app-open-close class="openCloseComponent" [@showHide]="isShow?'show':'hide'"></app-open-close>
 
-<app-simo-animation></app-simo-animation>
+<app-simo-animation class="simo-component"></app-simo-animation>
+
+
+<app-sidenav class="sidenav"></app-sidenav>

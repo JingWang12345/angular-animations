@@ -35,8 +35,14 @@ export class AppComponent {
   title = 'angular-animations';
   isShow = true;
 
+  isSidebarOpen = true;
+
   showHide(){
     this.isShow=!this.isShow;
+  }
+
+  showSidebar(){
+    this.isSidebarOpen= !this.isSidebarOpen;
   }
 
 }
